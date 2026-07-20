@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source:
+- https://www.cheddarup.com/integrations/
+- https://docs.cheddarup.com/javascript-sdk/component-use/checkout
+docs: https://docs.cheddarup.com/
+summary:
+  types:
+  - apiKey
+  notes: >-
+    Cheddar Up issues an API key to accounts on the Team plan for REST/webhook
+    integrations. The public JavaScript SDK Checkout component requires no auth
+    token because it is guest/payer-facing against an existing collection.
+schemes:
+- name: apiKey
+  type: apiKey
+  availability: Team plan
+  evidence: https://www.cheddarup.com/integrations/
+  description: >-
+    API key credential provisioned to Team-plan accounts to authenticate
+    programmatic integrations. Exact transport (header vs query) is not
+    published on an accessible page and is intentionally left unspecified.
+- name: none
+  type: none
+  applies_to: JavaScript SDK Checkout component
+  evidence: https://docs.cheddarup.com/javascript-sdk/component-use/checkout
+  description: Guest-facing checkout component requires no authentication token.
