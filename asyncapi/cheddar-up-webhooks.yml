@@ -1,0 +1,15 @@
+generated: '2026-07-18'
+method: searched
+spec_type: Webhooks
+source:
+- https://www.cheddarup.com/integrations/
+- https://docs.cheddarup.com/
+summary: >-
+  Cheddar Up documents a native Webhooks integration (listed under Data & Admin
+  on the integrations page) that lets Team-plan accounts push collection and
+  payment events to external applications and automation tools. The public event
+  catalog is not published on an accessible page (the developer docs sit behind a
+  Cloudflare challenge), so specific event/topic names are not enumerated here to
+  avoid fabrication.
+availability: Team plan
+events: []

@@ -1,0 +1,35 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cheddarup.com/javascript-sdk/component-use/checkout
+docs: https://docs.cheddarup.com/
+families:
+- name: Cheddar Up JavaScript SDK
+  kind: embeddable-web-components
+  description: >-
+    Client-side JavaScript SDK for embedding Cheddar Up collection and payment
+    surfaces into a third-party site. Components are instantiated through a
+    CheddarUpWidgetFactory that is configured with an apiUrl.
+  loader: CheddarUpWidgetFactory
+  config:
+  - name: apiUrl
+    description: Base API URL the widget factory targets.
+  components:
+  - name: Checkout
+    description: >-
+      Embeddable checkout component used by guests/payers to make a payment to
+      an existing Cheddar Up collection. Using it shifts the burden of PCI
+      compliance off the integrator's development team. No authentication token
+      is required because it is used by guests/visitors paying an existing
+      collection.
+    config:
+    - name: backToCartDisabled
+      required: false
+      description: >-
+        Optional componentConfig flag; when set, disallows the payer from going
+        back to the cart to edit or change items.
+    docs: https://docs.cheddarup.com/javascript-sdk/component-use/checkout
+notes: >-
+  The Cheddar Up developer docs (docs.cheddarup.com) sit behind a Cloudflare
+  challenge, so only the publicly indexed Checkout component surface is captured
+  here. Additional components in the JavaScript SDK were not enumerated to avoid
+  fabrication.

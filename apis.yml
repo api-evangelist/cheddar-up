@@ -1,7 +1,18 @@
 aid: cheddar-up
 name: Cheddar Up
-description: Cheddar Up is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cheddar Up is an all-in-one online platform that helps groups and communities
+  collect payments and forms in one place. Purpose-built for PTAs/PTOs, booster
+  clubs, youth sports teams, nonprofits, schools, clubs, HOAs, churches, and
+  other volunteer-led organizations, it lets organizers collect dues,
+  registrations, donations, event fees, fundraisers, and group gifts without any
+  technical setup. It combines online payments (credit card, e-check, Apple Pay,
+  Google Pay, and Link), custom forms, waivers, sign-ups, recurring payments,
+  itemized storefronts, automated tracking and reporting, and multi-manager team
+  administration. For technical users, Cheddar Up exposes an embeddable
+  JavaScript SDK (a guest-facing Checkout component instantiated via
+  CheddarUpWidgetFactory), API keys on the Team plan, and a native webhooks
+  integration for syncing collection and payment events to external apps.
 url: https://raw.githubusercontent.com/api-evangelist/cheddar-up/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.cheddarup.com/wp-content/uploads/2021/10/CUp_Logo_2c.svg
 tags:
 - Company
+- Payments
+- Group Payments
+- Fundraising
+- Nonprofits
+- Schools
+- Forms
+- Fintech
+- Payment Collection
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,44 @@ maintainers:
 common:
 - type: Website
   url: https://cheddarup.com
+- type: DeveloperPortal
+  url: https://docs.cheddarup.com/
+- type: Documentation
+  url: https://docs.cheddarup.com/
+- type: APIReference
+  url: https://docs.cheddarup.com/javascript-sdk/component-use/checkout
+- type: GettingStarted
+  url: https://www.cheddarup.com/how-does-cheddar-up-work/
+- type: Support
+  url: https://support.cheddarup.com/
+- type: Blog
+  url: https://www.cheddarup.com/blog/
+- type: Pricing
+  url: https://www.cheddarup.com/pricing/
+- type: SignUp
+  url: https://my.cheddarup.com/signup
+- type: Login
+  url: https://my.cheddarup.com/login
+- type: TermsOfService
+  url: https://www.cheddarup.com/termsofuse/
+- type: PrivacyPolicy
+  url: https://www.cheddarup.com/privacypolicy/
+- type: Integrations
+  url: https://www.cheddarup.com/integrations/
+- type: LLMsTxt
+  url: llms/cheddar-up-llms.txt
+- type: Components
+  url: components/cheddar-up-components.yml
+- type: Authentication
+  url: authentication/cheddar-up-authentication.yml
+- type: Webhooks
+  url: asyncapi/cheddar-up-webhooks.yml
+- type: WellKnown
+  url: well-known/cheddar-up-well-known.yml
+- type: DomainSecurity
+  url: security/cheddar-up-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
