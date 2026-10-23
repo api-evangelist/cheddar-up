@@ -3,7 +3,7 @@
   "feeds": [
     {
       "source": "https://www.cheddarup.com/press/",
-      "feed_url": "https://www.cheddarup.com/press/rss/",
+      "feed_url": "https://www.cheddarup.com/press/feed/",
       "title": "",
       "saved": 0,
       "method": "discovered"
@@ -19,16 +19,24 @@
       "source": "https://www.cheddarup.com/feed/",
       "feed_url": "https://www.cheddarup.com/feed/",
       "title": "",
-      "saved": 3,
+      "saved": 0,
       "method": "feed"
     },
     {
-      "source": "https://support.cheddarup.com/",
-      "feed_url": "",
+      "source": "https://www.cheddarup.com/press/rss/",
+      "feed_url": "https://www.cheddarup.com/press/rss/",
+      "title": "",
       "saved": 0,
-      "skipped": "community-shaped; a vendor feed already saved this run (roadmap#239)"
+      "method": "feed"
+    },
+    {
+      "source": "https://www.cheddarup.com/blog/feed/",
+      "feed_url": "https://www.cheddarup.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 3,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 50,
+  "fetched": "2026-10-17T14:53:57Z"
 }
