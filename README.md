@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cheddar Up is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Cheddar Up is an all-in-one online platform that helps groups and communities collect payments and forms in one place. Purpose-built for PTAs/PTOs, booster clubs, youth sports teams, nonprofits, schools, clubs, HOAs, churches, and other volunteer-led organizations, it lets organizers collect dues, registrations, donations, event fees, fundraisers, and group gifts without any technical setup. It combines online payments (credit card, e-check, Apple Pay, Google Pay, and Link), custom forms, waivers, sign-ups, recurring payments, itemized storefronts, automated tracking and reporting, and multi-manager team administration. For technical users, Cheddar Up exposes an embeddable JavaScript SDK (a guest-facing Checkout component instantiated via CheddarUpWidgetFactory), API keys on the Team plan, and a native webhooks integration for syncing collection and payment events to external apps.
 
-Backed by: 500-global — https://cheddarup.com
+**Areas:** Company · Payments · Group Payments · Fundraising · Non-Profit · Schools · Forms · Fintech · Payment Collection
+
+## Cheddar Up on APIs.io
+
+Everything profiled for Cheddar Up is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cheddar-up/](https://apis.io/providers/cheddar-up/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Cheddar Up Webhooks](https://apis.io/asyncapis/cheddar-up/cheddar-up-webhooks/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cheddar Up Authentication](https://apis.io/security/cheddar-up/cheddar-up-authentication/)
+- [Cheddar Up Domain Security](https://apis.io/security/cheddar-up/cheddar-up-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cheddarup.com)
+- [Documentation](https://docs.cheddarup.com/)
+- [Getting started](https://www.cheddarup.com/how-does-cheddar-up-work/)
+- [API reference](https://docs.cheddarup.com/javascript-sdk/component-use/checkout)
+- [Pricing](https://www.cheddarup.com/pricing/)
+- [Sign up](https://my.cheddarup.com/signup)
+- [Support](https://support.cheddarup.com/)
+- [Blog](https://www.cheddarup.com/press/)
+- [Terms of service](https://www.cheddarup.com/termsofuse/)
+- [Privacy policy](https://www.cheddarup.com/privacypolicy/)
+
+## API Evangelist rating
+
+**Kin Score 36.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 39.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 19.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.9** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cheddar-up/](https://apis.io/providers/cheddar-up/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cheddar Up: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cheddar-up/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
